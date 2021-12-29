@@ -843,7 +843,7 @@ section.slider_content{
 	//background:#3f4d64;
 	/background:#344054;
 	background:#344054;
-	border: 7px outset #999;
-	box-shadow: 15px 10px 5px grey;
+	border: 4px outset #999;
+	box-shadow: 10px 5px 5px grey;
 	border-radius:5px;
 }
