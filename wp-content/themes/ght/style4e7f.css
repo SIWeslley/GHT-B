@@ -852,6 +852,6 @@ section.slider_content{
 	//background:#0a3a9c;
 	background:#224da5;
 	border: 4px outset #999;
-	box-shadow: 0px 5px 5px grey;
+	box-shadow: 10px 5px 5px grey;
 	border-radius:5px;
 }
