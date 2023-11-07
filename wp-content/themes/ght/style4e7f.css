@@ -61,6 +61,11 @@ a img, input, button, textarea, img{
 section.right a img.block { /*logo inferior direito*/
 	margin-top:-18px;
 }
+
+div.CopyRight section.left a img.block { /*logo inferior esquerdo*/
+	margin-top:-18px;
+}
+
  button {
 	cursor:pointer;
 	
