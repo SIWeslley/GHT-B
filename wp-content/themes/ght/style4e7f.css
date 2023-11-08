@@ -164,7 +164,7 @@ body {
 	width:100%;
 	position:absolute;
 	left:0px;
-	top:-12px;
+	top:-10px;
 }
 .BottomRedBorder {
 	background:url(images/header_bottom_border.png) center top no-repeat;
@@ -662,19 +662,19 @@ ul.list-posts li.case-item:last-child{
 }
 #footer_wrapper {
 	width:100%;
-	background:#111 url(images/footer_bg.png) 0px 5px repeat-x; /* tem a propria linha vermelha*/
+	background:#111 url(images/footer_bg.png) 0px 0px repeat-x; /* tem a propria linha vermelha*/
 	position:relative;
-	padding-top:215px;
-	height:30px; /*tamanho do background escuro do rodapé*/
-	border: 0px solid #000;
+	padding-top:204px;
+	height:40px; /*tamanho do background escuro do rodapé*/
+	//border: 0px solid #000;
 }
 #footer_wrapper .TopRedBorder {
 	background:url(images/footer_red_border2.png) center top no-repeat;
-	height:31px;
+	height:30px;
 	width:100%;
 	position:absolute;
 	left:0px;
-	top:7px;
+	top:2px;
 }
 #footer {
 	height:60px; /**/
@@ -694,7 +694,11 @@ ul.list-posts li.case-item:last-child{
 #footer nav { /*Bloco onde fica o texto dentro do rodapé*/
 	width:252px;
 	float:left;
-	margin-top:-55px;
+	margin-top:-20px; /*Letra posicionamento rodapé*/
+}
+#footer #solucoes_ght {
+	margin-top:-10px;
+	
 }
 #footer nav ul {}
 #footer nav ul li {
@@ -830,3 +834,8 @@ div.menu-menu-solucoes-container ul.sub-menu li:hover{
 	background-color:#aa0000;
 }
 
+/*div#solucoes_ght h3{
+	top:10px;
+	background-color:blue;
+	margin-bottom:50px;	
+}*/
