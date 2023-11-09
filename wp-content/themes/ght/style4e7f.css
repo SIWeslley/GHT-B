@@ -66,6 +66,12 @@ div.CopyRight section.left a img.block { /*logo inferior esquerdo*/
 	margin-top:-18px;
 }
 
+div.CopyRight section.center a img.block { /*logo inferior esquerdo*/
+	margin-top:-10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
  button {
 	cursor:pointer;
 	
@@ -686,7 +692,7 @@ ul.list-posts li.case-item:last-child{
 	color:#c8c8c8;
 	font-family: '55 Roman', Arial, Helvetica, sans-serif;
 	font-size:17px;
-	line-height:45px;
+	line-height:35px; /*45px*/
 	text-shadow: 2px 2px 5px #000;
     filter: dropshadow(color=#000, offx=1, offy=1);
 	padding-left:2px;
@@ -748,6 +754,7 @@ footer nav{
 	font-size:13px;
 	color:#8d8d8d;
 	color:#ccc;              /********************************************************************************************************/
+	color:#8d8d8d;
 	/*padding-top:45px;*/
 	line-height:18px;
 	text-align:right;
@@ -773,7 +780,7 @@ footer nav{
 	line-height:18px;
 }
 .CopyRight p{ /*modifica as letras copyright*/
-	margin-top:-18px;
+	margin-top:-10px;
 }
 
 .solucoes_wrapper.three_col .col_1 {
@@ -841,4 +848,11 @@ div.menu-menu-solucoes-container ul.sub-menu li:hover{
 	top:10px;
 	background-color:blue;
 	margin-bottom:50px;	
+}*/
+/*
+section.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color:blue;
 }*/
