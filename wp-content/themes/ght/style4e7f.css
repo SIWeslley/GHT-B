@@ -671,8 +671,8 @@ ul.list-posts li.case-item:last-child{
 	//background:#111 url(images/footer_bg.png) 0px 0px repeat-x; /* tem a propria linha vermelha*/
 	background:#555 url(images/footer_bg.png) 0px 0px repeat-x; /* tem a propria linha vermelha*/
 	position:relative;
-	padding-top:204px;
-	height:40px; /*tamanho do background escuro do rodapé*/
+	padding-top:185px;
+	height:56px; /*tamanho do background escuro do rodapé*/
 	//border: 0px solid #000;
 }
 #footer_wrapper .TopRedBorder {
@@ -766,9 +766,10 @@ footer nav{
 
 #CopyRight_wrapper {
 	height:15px;
-	padding-top:194px;
+	padding-top:196px;
 	margin-top:8px;
-	background:url(images/copy_right_bg.png) repeat-x, url(images/copy_right_bg_red.png) bottom 40px left  repeat-x;
+	/*background:url(images/copy_right_bg.png) repeat-x, url(images/copy_right_bg_red.png) bottom 40px left  repeat-x;*/
+	background:url(images/copy_right_bg_red.png) bottom 40px left  repeat-x;
 	width:100%;
 }
 .CopyRight {
