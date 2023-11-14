@@ -722,7 +722,7 @@ ul.list-posts li.case-item:last-child{
 	font-size:13px;
 	//color:#8d8d8d;
 	color:#ccc;          /*************************************************************************************************************************/
-	padding-left:10px;
+	padding-left:15px;
 	display:block;
 }
 #footer nav ul li a { /*removi last-child do componente li*/
@@ -730,7 +730,7 @@ ul.list-posts li.case-item:last-child{
 }
 
 footer nav{
-	margin-right:60px;
+	margin-right:80px; /*60px aumentar o espaço entre os menus do footer*/
 }
 
 /*#footer nav ul li:last-child a { /*removi last-child do componente li ORIGINAL*/ 
@@ -839,7 +839,8 @@ http://wordpress.org/extend/plugins/wp-pagenavi/
 }
 
 div.menu-menu-solucoes-container ul.sub-menu li:hover{
-	background-color:#fed51a;
+	/*background-color:#fed51a;   /* menu quando passa o mouse em cima */
+	background-color:#ff661a;
 }
 .sub_menu ul.sub-menu li.current-menu-item{
 	background-color:#aa0000;
