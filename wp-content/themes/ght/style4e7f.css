@@ -730,7 +730,7 @@ ul.list-posts li.case-item:last-child{
 }
 
 footer nav{
-	margin-right:80px; /*60px aumentar o espaço entre os menus do footer*/
+	margin-right:84px; /*60px aumentar o espaço entre os menus do footer*/
 }
 
 /*#footer nav ul li:last-child a { /*removi last-child do componente li ORIGINAL*/ 
